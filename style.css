@@ -1,0 +1,91 @@
+@font-face {
+    font-family: montserrat;
+    src: url(font/Montserrat-Regular.ttf)
+}
+
+@media (min-width: 1025px) {
+	#layanan img {
+		padding-left: 140px;
+		padding-top: 30px;
+    }
+    
+    body {
+        padding: 20px;
+    }
+
+	#menu {
+		margin-left: 0px;
+	}
+}
+
+@media (min-device-width: 481px) and (max-device-width: 1024px) {
+    #layanan img {
+		padding-left: 40px;
+		padding-top: 30px;
+	}
+
+	#menu {
+		margin-left: 20px;
+    }
+    
+    body {
+        padding: 20px;
+	}
+	
+	section {
+		padding-bottom: 5rem;
+	}
+}
+
+body {
+    background-color: white;
+    font-family: 'montserrat';
+	color: rgb(31, 31, 31);
+    transition: 1s;
+    
+}
+
+.dark-mode {
+	background-color: rgb(37, 37, 37);
+	color: white;
+	transition: 1s;
+}
+
+.dark-mode .card {
+	color: white;
+	background-color: rgb(31, 31, 31);
+}
+
+
+.light-mode {
+	background-color: white;
+	color: rgb(31, 31, 31);
+	transition: 1s;
+}
+
+.card p, h5 {
+    
+        margin-left: 10px;
+    
+}
+
+.card img {
+	width: 150px;
+	margin-left: 50px;
+	margin-top: 25px;
+}
+
+#menu {
+	margin-left: 80px;
+}
+
+section {
+	padding-top: 3rem;
+	padding-bottom: 18rem;
+}
+
+#layanan img {
+	color: green;
+	padding-left: 180px;
+	padding-top: 30px;
+}
